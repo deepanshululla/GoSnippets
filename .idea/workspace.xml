@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22625f33-127f-49c1-b2b4-61c4b4b896d2" name="Default" comment="" />
+    <list default="true" id="22625f33-127f-49c1-b2b4-61c4b4b896d2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/GoRoutines/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/atomicTransactions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/atomicTransactions/atomicTransactionDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/basics/nogoroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/basics/wgWithSleep.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/basics/withGoRoutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/basics/withParallelism.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/basics/withWaitGroups.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/basics/withWaitGroups2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/mutex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/mutex/mutexDemo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/raceConditions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/raceConditions/demoRaceCondition.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/raceConditions/falseSharing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoRoutines/Screen Shot 2018-08-04 at 5.36.00 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/GoRoutines/images/Screen Shot 2018-08-04 at 5.36.00 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoRoutines/Screen Shot 2018-08-04 at 5.37.32 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/GoRoutines/images/Screen Shot 2018-08-04 at 5.37.32 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoRoutines/Screen Shot 2018-08-04 at 5.38.18 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/GoRoutines/images/Screen Shot 2018-08-04 at 5.38.18 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoRoutines/Screen Shot 2018-08-04 at 5.40.10 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/GoRoutines/images/Screen Shot 2018-08-04 at 5.40.10 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoRoutines/Screen Shot 2018-08-04 at 5.45.23 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/GoRoutines/images/Screen Shot 2018-08-04 at 5.45.23 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoRoutines/WebStatusChecker.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoRoutines/WebStatusChecker/WebStatusChecker.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,11 +32,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="atomicTransactionDemo.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoRoutines/atomicTransactions/atomicTransactionDemo.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoRoutines/atomicTransactions/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/GoRoutines/raceConditions</dir>
+    </dirStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.10.3/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/GoRoutines/WebStatusChecker/WebStatusChecker.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/basics/nogoroutine.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/basics/withGoRoutine.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/basics/withWaitGroups2.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/basics/withWaitGroups.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/basics/wgWithSleep.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/basics/withParallelism.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/README.md" />
+        <option value="$PROJECT_DIR$/GoRoutines/raceConditions/demoRaceCondition.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/raceConditions/README.md" />
+        <option value="$PROJECT_DIR$/GoRoutines/mutex/mutexDemo.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/mutex/README.md" />
+        <option value="$PROJECT_DIR$/GoRoutines/atomicTransactions/atomicTransactionDemo.go" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -45,6 +119,29 @@
               <item name="GoSnippets" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoSnippets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GoSnippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoSnippets" type="462c0819:PsiDirectoryNode" />
+              <item name="GoRoutines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoSnippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoSnippets" type="462c0819:PsiDirectoryNode" />
+              <item name="GoRoutines" type="462c0819:PsiDirectoryNode" />
+              <item name="atomicTransactions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoSnippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoSnippets" type="462c0819:PsiDirectoryNode" />
+              <item name="GoRoutines" type="462c0819:PsiDirectoryNode" />
+              <item name="mutex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoSnippets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoSnippets" type="462c0819:PsiDirectoryNode" />
+              <item name="GoRoutines" type="462c0819:PsiDirectoryNode" />
+              <item name="WebStatusChecker" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -52,6 +149,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -60,6 +158,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GoRoutines/raceConditions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GoRoutines/WebStatusChecker" />
+      <recent name="$PROJECT_DIR$/GoRoutines/images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,19 +180,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="go build tryGo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build mutexDemo.go">
+    <configuration name="go build demoRaceCondition.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoSnippets" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tryGo.go" />
-      <package value="github.com/deepanshululla/GoSnippets" />
+      <filePath value="$PROJECT_DIR$/GoRoutines/raceConditions/demoRaceCondition.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build mutexDemo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoSnippets" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/GoRoutines/mutex/mutexDemo.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build wgWithSleep.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoSnippets" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/GoRoutines/basics/wgWithSleep.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build withGoRoutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoSnippets" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/GoRoutines/basics/withGoRoutine.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build withWaitGroups.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoSnippets" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/GoRoutines/basics/withWaitGroups.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build withGoRoutine.go" />
+      <item itemvalue="Go Build.go build withWaitGroups.go" />
+      <item itemvalue="Go Build.go build wgWithSleep.go" />
+      <item itemvalue="Go Build.go build demoRaceCondition.go" />
+      <item itemvalue="Go Build.go build mutexDemo.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build tryGo.go" />
+        <item itemvalue="Go Build.go build mutexDemo.go" />
+        <item itemvalue="Go Build.go build demoRaceCondition.go" />
+        <item itemvalue="Go Build.go build wgWithSleep.go" />
+        <item itemvalue="Go Build.go build withWaitGroups.go" />
+        <item itemvalue="Go Build.go build withGoRoutine.go" />
       </list>
     </recent_temporary>
   </component>
@@ -93,24 +242,24 @@
     <frame x="20" y="43" width="1400" height="761" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073636" side_tool="true" weight="0.3298193" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298193" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" weight="0.3298193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3298193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3298193" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +269,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tryGo.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -127,16 +293,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsStuff/main/ec2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="83" lean-forward="true" selection-start-line="2" selection-end-line="83" />
-          <folding>
-            <element signature="e#14#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/awsStuff/main/ec2.go" />
     <entry file="file://$PROJECT_DIR$/tryGo.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -144,13 +301,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/awsStuff/main/s3.go">
+    <entry file="file://$PROJECT_DIR$/awsStuff/main/s3.go" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maps/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="34" column="1" selection-start-line="2" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="720">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/images/Screen Shot 2018-08-04 at 5.36.00 PM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/images/Screen Shot 2018-08-04 at 5.37.32 PM.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/basics/nogoroutine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/basics/withWaitGroups2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding>
-            <element signature="e#14#151#0" expanded="true" />
+            <element signature="e#22#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/basics/withGoRoutine.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/basics/withWaitGroups.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" selection-start-line="16" selection-end-line="29" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/basics/withParallelism.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/basics/wgWithSleep.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/raceConditions/demoRaceCondition.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/WebStatusChecker/WebStatusChecker.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/raceConditions/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="25" selection-start-line="25" selection-end-line="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/mutex/mutexDemo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/mutex/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="735">
+            <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/atomicTransactions/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/atomicTransactions/atomicTransactionDemo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
