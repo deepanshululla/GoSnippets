@@ -11,3 +11,9 @@ Goroutines are functions that are created and scheduled to be run independently 
 	* Parallelism is about doing lots of things at once.
 
 
+```text
+f() // A normal function call that executes f synchronously and waits for completing it
+go f() // A goroutine that executes f asynchronously and doesn't wait for completing it
+```
+
+![](images/goroutines.png)

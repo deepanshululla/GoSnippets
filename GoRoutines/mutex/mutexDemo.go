@@ -19,9 +19,17 @@ func main(){
 	//fmt.Println("Final Counter:", counter)
 
 	// one with race condition
+	//wg.Add(2)
+	//go incrementor2("Foo:")
+	//go incrementor2("Bar:")
+	//wg.Wait()
+	//fmt.Println("Final Counter:", counter)
+
+	// this just creates an infinite loop
+	// though it doesn't create a race condition
 	wg.Add(2)
-	go incrementor2("Foo:")
-	go incrementor2("Bar:")
+	go incrementor3("Foo:")
+	go incrementor3("Bar:")
 	wg.Wait()
 	fmt.Println("Final Counter:", counter)
 }
@@ -45,6 +53,20 @@ func incrementor2(s string){
 	for ;counter<20;{
 		time.Sleep(time.Duration(rand.Intn(200)) * time.Millisecond)
 		mutex.Lock()
+		counter++
+		fmt.Println(s, "Counter:", counter)
+		mutex.Unlock()
+	}
+	wg.Done()
+}
+
+func incrementor3(s string){
+	for {
+		time.Sleep(time.Duration(rand.Intn(200)) * time.Millisecond)
+		mutex.Lock()
+		if (counter>20) {
+			break
+		}
 		counter++
 		fmt.Println(s, "Counter:", counter)
 		mutex.Unlock()
