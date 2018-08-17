@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="22625f33-127f-49c1-b2b4-61c4b4b896d2" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/GoRoutines/WebStatusChecker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/helpers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/opsworksLib.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/GoRoutines/appliedConcurrency/FactorialChallenge/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/GoRoutines/appliedConcurrency/FactorialChallenge/compFactorialSolution.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/GoRoutines/appliedConcurrency/FactorialChallenge/factorialWaitGroups.go" afterDir="false" />
@@ -40,11 +44,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FanIn.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FanIn.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/FanInOutPattern/FanIn.go">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="opsworksLib.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/opsworksLib.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <folding>
+                <element signature="e#28#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/helpers.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <folding>
+                <element signature="e#28#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-215">
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <folding>
+                <element signature="e#14#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -59,6 +111,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>utils</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/GoRoutines/raceConditions</dir>
     </dirStrings>
@@ -70,10 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/GoRoutines/WebStatusChecker/WebStatusChecker.go" />
-        <option value="$PROJECT_DIR$/GoRoutines/basics/nogoroutine.go" />
-        <option value="$PROJECT_DIR$/GoRoutines/basics/withGoRoutine.go" />
         <option value="$PROJECT_DIR$/GoRoutines/basics/withWaitGroups2.go" />
         <option value="$PROJECT_DIR$/GoRoutines/basics/withWaitGroups.go" />
         <option value="$PROJECT_DIR$/GoRoutines/basics/wgWithSleep.go" />
@@ -121,6 +172,10 @@
         <option value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/FactorialChallenge/README.md" />
         <option value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/FactorialChallenge/factorialWaitGroups.go" />
         <option value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/FanInOutPattern/FanIn.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/main.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/helpers.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/opsworksLib.go" />
+        <option value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/README.md" />
       </list>
     </option>
   </component>
@@ -168,7 +223,7 @@
               <item name="GoSnippets" type="462c0819:PsiDirectoryNode" />
               <item name="GoRoutines" type="462c0819:PsiDirectoryNode" />
               <item name="appliedConcurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="FanInOutPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="ConcurrentAWSCalls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoSnippets" type="b2602c69:ProjectViewProjectNode" />
@@ -228,21 +283,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build WebStatusChecker.go">
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build WebStatusChecker.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoSnippets" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/GoRoutines/WebStatusChecker/WebStatusChecker.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="go build compFactorial.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoSnippets" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/FactorialChallenge/compFactorial.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build factorialWaitGroups.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -261,6 +308,14 @@
       <filePath value="$PROJECT_DIR$/GoRoutines/appliedConcurrency/FactorialChallenge/factorialWithChannels.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoSnippets" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/GoRoutines/ConcurrentAWSCalls/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration name="go build squareNumbersPipeline.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoSnippets" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -270,27 +325,26 @@
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build compFactorial.go" />
       <item itemvalue="Go Build.go build squareNumbersPipeline.go" />
       <item itemvalue="Go Build.go build factorialWithChannels.go" />
       <item itemvalue="Go Build.go build factorialWaitGroups.go" />
       <item itemvalue="Go Build.go build WebStatusChecker.go" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build WebStatusChecker.go" />
         <item itemvalue="Go Build.go build factorialWaitGroups.go" />
         <item itemvalue="Go Build.go build factorialWithChannels.go" />
         <item itemvalue="Go Build.go build squareNumbersPipeline.go" />
-        <item itemvalue="Go Build.go build compFactorial.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073636" side_tool="true" weight="0.3298193" />
       <window_info anchor="right" id="Database" order="3" weight="0.3287373" />
@@ -298,7 +352,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" weight="0.25939393" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34545454" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34545454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -322,43 +376,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GoRoutines/raceConditions/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" selection-start-line="25" selection-end-line="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoRoutines/atomicOperations/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="165">
-            <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoRoutines/mutex/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="735">
-            <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoRoutines/raceConditions/demoRaceCondition.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoRoutines/basics/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -676,6 +693,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/helpers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#28#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/opsworksLib.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#28#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoRoutines/appliedConcurrency/ConcurrentAWSCalls/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

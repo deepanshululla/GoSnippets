@@ -6,3 +6,10 @@ In this case we are creating mapping for different AWS entities.
 However AWS imposes a limit on the number of concurrent requests. Hence
 we need to synchonize the go routines to run one at a time using channels
 
+
+```text
+Run using
+
+go run *.go
+
+```
